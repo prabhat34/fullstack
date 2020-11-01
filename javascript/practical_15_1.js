@@ -1,15 +1,15 @@
-let add = document.getElementById('increment');
-let remove = document.getElementById('decrement');
+let increment= document.getElementById('increment');
+let decrement = document.getElementById('decrement');
 
 let int = document.getElementById('number');
 let integer = 0;
 
-add.addEventListener('click', function () {
+increment.addEventListener('click', function () {
     integer += 1;
     int.innerHTML = integer;
 });
 
-remove.addEventListener('click', function () {
+decrement.addEventListener('click', function () {
     integer -= 1;
     int.innerHTML = integer;
 });
